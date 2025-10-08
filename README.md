@@ -85,12 +85,14 @@ npm run build
 
 
 🧰 Tech Stack
+
 Frontend:
 React
 Vite
 Tailwind CSS
 ShadCN UI
-Plotly.js
+Echart
+
 Backend:
 Python
 Flask
@@ -98,7 +100,7 @@ flask-cors
 Pandas
 Numpy
 
-Development Tools:
+Development:
 npm
 concurrently
 GitLab CI/CD
