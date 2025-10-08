@@ -29,22 +29,31 @@ It uses Echart for visualization.
 ![Dashboard Preview](./png/png3.png)
 ---
 
-## 🚀 Getting Started
+## 🚀 Project Explanation
+This project primarily supports backtesting simulations and paper trading monitoring.
+It retrieves daily trading data stored in AWS S3 through APIs, ensuring that the web application focuses solely on monitoring and visualization without performing direct trading or computation tasks.
+
+The backend adopts a CI/CD-driven architecture, where pricing calculations and strategy computations are fully decoupled from the main service.
+All data updates and validations are handled by a scheduler and CI/CD pipeline, ensuring that the retrieval process remains efficient, consistent, and reliable.
+
+This design enhances modularity, security, and performance, making the system highly suitable for daily trading supervision and quantitative strategy development environments.
+
+For testing the S3 key (download daily Log file), please email: lukerspace@gmail.com 
 
 ### Clone the repository
 
+
+
+
 ```bash
 1️⃣ download
-bash
 Download from GitHub
 
 2️⃣ Install dependencies by npm install
-bash
 npm install
 
 
 3️⃣ Start the development servers
-bash
 npm run dev
 
 
@@ -95,4 +104,3 @@ concurrently
 GitLab CI/CD
 
 
-USE KEY FOR TESTING (KEY,SECRET) - email: lukerspace@gmail.com
