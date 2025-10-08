@@ -1,0 +1,7 @@
+fastapi
+boto3
+uvicorn
+pandas
+openpyxl
+flask
+flask_cors

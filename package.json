@@ -1,0 +1,16 @@
+{
+  "name": "kicks-venture-internal-dashboard",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "node scripts/start-backend.js",
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "dependencies": {
+    "echarts": "^5.6.0",
+    "echarts-for-react": "^3.0.2",
+    "for": "^0.0.1-dev.0"
+  }
+}
