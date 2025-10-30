@@ -4,6 +4,9 @@ This project integrates a **React (Vite)** frontend with a **Flask** backend.
 It provides real-time strategy monitoring and trading analytics for TWSE and USA models.
 It uses Echart for visualization.
 
+# 📁  Project URL
+https://kicksvc.online
+
 ---
 
 ## 📁 Project Structure
